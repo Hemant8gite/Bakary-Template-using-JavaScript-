@@ -1,0 +1,419 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.15.4/css/all.css');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --pink: #C14679;
+    --gray: #999999;
+}
+ul li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+h2{
+    font-weight: bold;
+    font-size: 30px;
+}
+#navMenuOne{
+    display: none;
+}
+.sectionOne{
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.headIconMarker{
+    font-size: 30px;
+    color: var(--pink)
+}
+.fas{
+    font-weight: 100px;
+}
+.buttonPink{
+    background-color: var(--pink);
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 5px;
+    margin: 10px 0px;
+    color: aliceblue;
+    font-weight: bolder;
+}
+
+.navBar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.section3{
+    padding: 70px;
+    background: url(../images/bg-img-1.jpg);
+    background-size: cover;
+}
+.heading1{
+    color: var(--pink);
+    font-size: 50px;
+    font-family: 'Great Vibes', cursive;
+}
+.spanHero, .sec4para{
+    font-size: 20px;
+    padding: 10px 0px;
+    color: var(--gray);
+}
+.heroH3{
+    font-weight: bold;
+    font-size: 25px;
+}
+.backGround{
+    margin: -80px 0px 0px 0px;
+    background: url(../images/promo-1-1149x474.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0px;
+    width: 90vw;
+    height: 450px;
+    border: 10px solid #e9e9e9;
+}
+.sec3head{
+    font-family: 'Great Vibes', cursive;
+    color: var(--pink);
+    font-size: 30px;
+}
+.section4{
+    height: 50vh;
+}
+.section5{
+    padding: 100px 0px;
+}
+.cardHover{
+    margin: 0 0 40px 0;
+    transition-duration: .4s;
+    padding-bottom: 20px;
+    padding: 0;
+}
+.imageBorder{
+    border: 1px solid #e2e2e2;
+}
+.cardHover:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 20px var(--gray);
+    padding-bottom: 30px;
+    border-radius: 5px;
+}
+.cardHover:hover div{
+    border: none;
+}
+.btonCr{
+    border-bottom: 2px solid var(--gray);
+    padding-bottom: 8px;
+    font-weight: 550;
+    color: var(--gray);
+}
+.cardHover:hover .btonCr{
+    border: 2px solid var(--pink);
+    padding: 4px 10px;
+    color: var(--pink);
+}
+.section6{
+    background-color: rgb(240, 240, 240);
+    padding: 50px 0px;
+}
+.sec6card{
+    width: 250px;
+    border-radius: 10px;
+    background-color: white;
+}
+.SliderPinkButton{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 0;
+    margin: 30px 10px;
+    background-color: var(--pink);
+    color: white;
+}
+.product-price{
+    color: var(--pink);
+    font-weight: bold;
+}
+.iCon{
+    padding: 20px 0;
+    font-size: 50px;
+    color: var(--pink);
+}
+.Delted{
+    color: #919191;
+    font-weight: 400;
+}
+.imageSlider{
+    height: 100px;
+}
+h3{
+    font-weight: 650px;
+}
+.section8{
+    background-image: url(../images/parallax-bg-1.jpg);
+    background-size: cover;
+    padding: 100px 0px;
+}
+.heading2{
+    color: var(--pink);
+    font-size: 40px;
+    font-family: 'Great Vibes', cursive;
+}
+.para8{
+    font-size: 30px;
+}
+.footOne{
+    background-color: #F5F5F5;
+}
+.bottomP{
+    position: relative;
+    font-size: 75px;
+    font-weight: 400;
+}
+.OpaCity{
+    opacity: .3;
+    color: var(--pink);
+}
+.spanOver{
+    position: absolute;
+    font-size: 15px;
+    font-weight: 600;
+    left: 38px;
+    top: 48px;
+    opacity: 1;
+    color: #C14679;
+}
+#ancTwo{
+    border-bottom: 2px solid var(--gray);
+    padding-bottom: 8px;
+    font-weight: 550;
+    color: var(--gray);
+    margin: 20px 0;
+    transition-duration: .3s;
+}
+#ancTwo:hover {
+    border: 2px solid var(--pink);
+    padding: 4px 10px;
+    color: var(--pink);
+}
+.borderBox{
+    width: 146px;
+    height: 201px;
+    border: 11px solid #ebebeb;
+    opacity: .5;
+    top: 0px;
+    left: 0;
+}
+.section10{
+    background: url(../images/bg-pattern-1.jpg);
+}
+.teamImg{
+    height: 230px;
+    width: 230px;
+    border: 15px solid white;
+    margin: 0 auto;
+}
+.mainScale{
+    position: relative;
+    margin: 20px 0;
+}
+.mainScale::before{
+    position: absolute;
+    content: "";
+    top: 25%;
+    left: 7%;
+    width: 30px;
+    height: 30px;
+    clip-path: polygon(100% 3%, 0 52%, 100% 100%);
+    background-color: rgb(255, 255, 255);
+}
+.mainScale:hover h3{
+    color: var(--pink);
+    transition-duration: .4s;
+}
+.iconTeam{
+    cursor: pointer;
+}
+.mainScale:hover .iconTeam{
+    color: var(--pink);
+    transition-duration: .4s;
+}
+.teamHead{
+    padding: 10px 0;
+}
+.iconTeam{
+    font-size: 20px;
+}
+.mainScale:hover img{
+    transform: scale(1.1);
+    transition-duration: .3s;
+}
+.mainScale:hover .teamHead{
+    padding-top: 30px;
+    transition-duration: .4s;
+}
+.section11{
+    padding: 50px 0px;
+    background-image: url(../images/bg-cta-1.jpg);
+    background-size: cover;
+}
+.owl-carousel .owl-item img{
+    width: 50px;
+    height: 50px;
+
+}
+.fontSpan{
+    font-size: 50px;
+    color: var(--pink);
+    font-family: 'Great Vibes', cursive;
+}
+.pinkP{
+    color: var(--pink);
+    font-size: 20px;
+}
+.sec13rel{
+    position: relative;
+    margin-bottom: 30px;
+}
+.sec13Abs{
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    right: 10%;
+    color: white;
+}
+.newsImg{
+    margin: 0 0 28px 0;
+    width: 250px;
+    height: 185px;
+}
+.scAleHoverT:hover img{
+    transform: scale(1.1);
+    transition-duration: .6s;
+}
+.section14{
+    padding: 80px 0px;
+    background-image: url(../images/bg-img-2.jpg);
+    background-size: cover;
+    background-position: 54% 100%;
+}
+.OpacitYOff:hover{
+    opacity: .6;
+    transition-duration: .6s;
+}
+.section15{
+    padding: 80px 0px;
+}
+.footHoverImg{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    margin:5px;
+    overflow: hidden !important;
+}
+.footHoverImg a img{
+    width: 100px;
+    height: 100px;
+    transform: scale(1.1);
+}
+.footHoverImg:hover img{
+    transform: scale(1);
+    transition-duration: .6s;
+}
+.footHoverImg::before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(255, 0, 0);
+    transform: scale(2) rotate(45deg) translate3d(0, -100%, 0);
+    transition: transform .6s;
+    pointer-events: none;
+    z-index: 1;
+    transition: transform 3s;
+
+  }
+  .footHoverImg:hover ::before{
+    position: absolute;
+    content: '';
+    top: 225px;
+    left: -200px;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 179, 179, 0.616);
+    transform: scale(2) rotate(45deg) translate3d(0, -100%, 0);
+    transition: transform 3s;
+    pointer-events: none;
+    z-index: 1;
+  }
+
+.borderFoot{
+    border: #999999 1px solid;
+    border-radius: 50%;
+    width: 40px;
+    margin: 2px;
+    height: 40px;
+    padding: 10px 0 0 10px;
+}
+.liHover a{
+    color: black;
+    font-size: 15px;
+    z-index: 10;
+}
+.liHover a:hover{
+    color: var(--pink);
+    border-bottom: #C14679 1px solid;
+    transition-duration: .5s;
+}
+.liHover:hover i{
+    color: var(--pink);
+    transition-duration: .5s;
+}
+.rights, .rights a{
+    color: #919191;
+}
+@media (min-width:992px){
+    h2{
+        font-size: 50px;
+    }
+    #navMenuOne{
+        display: inline-block;
+    }
+    .heading1{
+        color: #C14679;
+        font-size: 100px;
+    }
+    .spanHero{
+        font-size: 30px;
+        padding: 10px 0px;
+        color: var(--gray);
+    }
+    .heroH3{
+        font-weight: bold;
+        font-size: 50px;
+    }
+    
+    .backGround{
+        background-size: 100% 100%;
+        width: 70vw;
+        height: 400px;
+        padding: 50px 80px;
+    }
+    .section4{
+        height: 60vh;
+    }
+}
