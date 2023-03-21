@@ -1,1 +1,1 @@
-# Project-One
+# Bakery-Template (using JavaScript)
